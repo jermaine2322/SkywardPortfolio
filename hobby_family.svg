@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="420" viewBox="0 0 700 420" role="img" aria-label="Family illustration">
+  <rect width="700" height="420" rx="24" fill="#e9f1f8"/>
+  <circle cx="240" cy="150" r="62" fill="#285d8f"/>
+  <circle cx="460" cy="150" r="62" fill="#285d8f"/>
+  <circle cx="350" cy="210" r="48" fill="#c79a3b"/>
+  <path d="M120 390c15-125 70-190 120-190s105 65 120 190" fill="#17324d"/>
+  <path d="M340 390c15-125 70-190 120-190s105 65 120 190" fill="#17324d"/>
+  <path d="M270 390c8-86 42-135 80-135s72 49 80 135" fill="#c79a3b"/>
+  <text x="350" y="55" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#17324d">Family</text>
+</svg>

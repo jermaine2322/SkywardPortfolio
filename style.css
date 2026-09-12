@@ -1,0 +1,151 @@
+:root {
+  --navy: #17324d;
+  --blue: #285d8f;
+  --gold: #c79a3b;
+  --ink: #1d2a36;
+  --muted: #5c6b78;
+  --page: #e7eef5;
+  --card: #ffffff;
+  --line: #c7d3df;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background-color: var(--page);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.page-shell {
+  width: min(1080px, 92%);
+  margin: 24px auto;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(23, 50, 77, 0.12);
+  overflow: hidden;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 16px;
+  background: var(--navy);
+}
+
+.navigation button {
+  border: 1px solid rgba(255,255,255,0.35);
+  border-radius: 8px;
+  padding: 10px 16px;
+  color: white;
+  background: var(--blue);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.navigation button:hover,
+.navigation button:focus {
+  background: var(--gold);
+  color: #12263a;
+}
+
+.content { padding: 28px 34px 34px; }
+
+.profile-header {
+  text-align: center;
+  padding: 12px 20px 22px;
+}
+
+.profile-header h1,
+.profile-header h2,
+.profile-header h3 { margin: 5px 0; }
+
+.profile-header h1 { color: var(--navy); font-size: clamp(2rem, 5vw, 3.1rem); }
+.profile-header h2 { color: var(--blue); font-size: 1.25rem; }
+.profile-header h3 { color: var(--muted); font-size: 1rem; font-weight: 600; }
+
+hr {
+  border: 0;
+  border-top: 2px solid var(--line);
+  margin: 24px 0;
+}
+
+h1, h2, h3 { color: var(--navy); }
+
+.section-card {
+  margin: 20px 0;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--gold);
+  border-radius: 10px;
+  background: #f8fbfd;
+}
+
+.hero-image,
+.profile-image,
+.contact-image,
+.hobby-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 18px auto;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+}
+
+.hero-image { width: 720px; }
+.profile-image { width: 280px; }
+.contact-image { width: 260px; }
+
+.hobby-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.hobby-card {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #f8fbfd;
+}
+
+.hobby-card h3 { text-align: center; }
+.hobby-image { width: 100%; max-height: 240px; object-fit: cover; }
+
+.resume-header { text-align: center; }
+.resume-section { margin: 22px 0; }
+.resume-section h3 { margin-bottom: 6px; border-bottom: 2px solid var(--gold); padding-bottom: 4px; }
+.resume-item { margin-bottom: 16px; }
+.resume-item strong { color: var(--navy); }
+
+.callout {
+  padding: 16px 18px;
+  border-radius: 10px;
+  background: #eef5fb;
+  border: 1px solid #b8cee1;
+}
+
+.contact-link {
+  text-align: center;
+}
+
+.contact-link a { color: var(--blue); font-weight: 700; }
+
+.footer-note {
+  text-align: center;
+  padding: 14px 20px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 720px) {
+  .content { padding: 22px 18px 28px; }
+  .hobby-grid { grid-template-columns: 1fr; }
+  .navigation button { width: 46%; }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="420" viewBox="0 0 700 420" role="img" aria-label="Fire service illustration">
+  <rect width="700" height="420" rx="24" fill="#eef3f7"/>
+  <path d="M350 55c48 71 116 119 116 210 0 82-52 133-116 133s-116-51-116-133c0-59 31-101 70-141 2 40 21 72 46 88 5-54 31-102 0-157z" fill="#c79a3b"/>
+  <path d="M350 183c25 38 54 64 54 109 0 40-24 68-54 68s-54-28-54-68c0-27 13-49 32-70 1 20 9 36 22 44 2-28 14-54 0-83z" fill="#17324d"/>
+  <text x="350" y="55" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#17324d">Fire Service</text>
+</svg>

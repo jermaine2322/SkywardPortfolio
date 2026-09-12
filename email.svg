@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+  <title id="title">Send Derick Gary an email</title>
+  <desc id="desc">Envelope icon that opens a new email message.</desc>
+  <rect width="600" height="420" rx="24" fill="#17324d"/>
+  <rect x="95" y="95" width="410" height="240" rx="18" fill="#eef5fb"/>
+  <path d="M105 115l195 145 195-145" fill="none" stroke="#285d8f" stroke-width="24" stroke-linejoin="round"/>
+  <path d="M105 320l145-120M495 320L350 200" fill="none" stroke="#c79a3b" stroke-width="18" stroke-linecap="round"/>
+  <text x="300" y="385" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#ffffff">Click to Email Me</text>
+</svg>

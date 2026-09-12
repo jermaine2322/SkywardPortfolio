@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Service, leadership, and technology</title>
+  <desc id="desc">A professional banner representing emergency service, leadership, and information technology.</desc>
+  <rect width="1200" height="560" rx="28" fill="#17324d"/>
+  <path d="M0 455L250 250l180 155 190-230 230 210 190-170 160 135v210H0z" fill="#285d8f" opacity="0.9"/>
+  <circle cx="190" cy="170" r="86" fill="#c79a3b"/>
+  <path d="M190 110v120M130 170h120" stroke="#17324d" stroke-width="28" stroke-linecap="round"/>
+  <rect x="478" y="105" width="250" height="180" rx="18" fill="#eef5fb"/>
+  <rect x="510" y="137" width="186" height="112" rx="8" fill="#285d8f"/>
+  <path d="M445 317h316" stroke="#eef5fb" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="955" cy="182" r="88" fill="#eef5fb"/>
+  <path d="M907 180l32 32 66-75" fill="none" stroke="#285d8f" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="460" text-anchor="middle" font-family="Arial" font-size="48" font-weight="700" fill="#ffffff">Service • Leadership • Technology</text>
+  <text x="600" y="512" text-anchor="middle" font-family="Arial" font-size="25" fill="#d6e1eb">Building safer, stronger, and more secure organizations</text>
+</svg>

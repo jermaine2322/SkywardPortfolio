@@ -1,52 +1,172 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Derick Gary</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Derick Gary is a Marine Corps veteran, Fire Engineer, technical communicator, and emerging IT professional based in Jacksonville, North Carolina.">
+  <title>Derick Gary | IT Support &amp; Operations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Source+Serif+4:opsz,wght@8..60,600&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b2438'/%3E%3Cpath d='M18 15h15c11 0 18 6 18 17s-7 17-18 17H18V15zm14 26c7 0 10-3 10-9s-3-9-10-9h-5v18h5z' fill='%23f0b45b'/%3E%3C/svg%3E">
 </head>
 <body>
-<div class="page-shell">
-<div class="navigation">
-<button onclick="document.location = 'index.html'">Home Page</button>
-<button onclick="document.location = 'Cover.html'">Cover Letter</button>
-<button onclick="document.location = 'Resume.html'">My Resume</button>
-<button onclick="document.location = 'Hobby.html'">Hobbies</button>
-<button onclick="document.location = 'Contact.html'">Contact Me</button>
-</div>
-<hr>
-<main class="content">
-  <div class="profile-header">
-    <h1>Derick Jermaine Gary</h1>
-    <h2>Jacksonville, North Carolina 28546</h2>
-    <h3>Cell: (910) 478-5420</h3>
-    <h3><a href="mailto:jermaine2322@yahoo.com">jermaine2322@yahoo.com</a></h3>
-    <h3><a href="https://www.linkedin.com/in/derick-gary-855312196" target="_blank" rel="noopener">LinkedIn Profile</a></h3>
-  </div>
-  <hr>
-  <section class="section-card">
-    <h1>Customer Support, Technology, and Public Service</h1>
-    <p>I bring more than a decade of service-centered leadership from the Marine Corps, emergency communications, and the fire service. I am pursuing a B.S. in Information Technology with a concentration in Data Networking and Security and am prepared to bring calm troubleshooting, clear communication, and dependable follow-through to an IT support team.</p>
-    <p>I seek a position with a company:</p>
-    <ul>
-      <li>that values dependable leadership, calm decision-making, and service to others.</li>
-      <li>that allows me to apply information technology, networking, and cybersecurity skills to protect people and organizational assets.</li>
-      <li>that provides opportunities to lead projects, improve older systems, and grow into technology management.</li>
-    </ul>
-  </section>
-  <hr>
-  <img class="hero-image" src="hero.svg" alt="Service, leadership, and technology banner">
-</main>
-<hr>
-<div class="navigation">
-<button onclick="document.location = 'index.html'">Home Page</button>
-<button onclick="document.location = 'Cover.html'">Cover Letter</button>
-<button onclick="document.location = 'Resume.html'">My Resume</button>
-<button onclick="document.location = 'Hobby.html'">Hobbies</button>
-<button onclick="document.location = 'Contact.html'">Contact Me</button>
-</div>
-<div class="footer-note">Professional portfolio of Derick Gary</div>
-</div>
-</body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Derick Gary home">DG</a>
+    <nav aria-label="Primary navigation">
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#skyward">Why Skyward</a>
+    </nav>
+    <a class="header-link" href="mailto:jermaine2322@yahoo.com">Contact</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">IT support · operations · public service</p>
+        <h1>Calm under pressure.<br><span>Curious by nature.</span></h1>
+        <p class="hero-intro">I’m Derick Gary—a Marine Corps veteran, Fire Engineer, technical communicator, and emerging IT professional who makes complex problems easier for people to understand and solve.</p>
+        <div class="actions">
+          <a class="button primary" href="#experience">View experience</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/derick-gary-855312196" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+        <ul class="quick-facts" aria-label="Highlights">
+          <li><strong>11+ years</strong><span>Leadership &amp; public service</span></li>
+          <li><strong>4.0 GPA</strong><span>B.S. Information Technology</span></li>
+          <li><strong>80+ personnel</strong><span>Led in the Marine Corps</span></li>
+        </ul>
+      </div>
+      <div class="portrait-wrap">
+        <div class="portrait-frame">
+          <img src="derick-gary-headshot.jpg" alt="Professional headshot of Derick Gary" width="640" height="800">
+        </div>
+        <p class="portrait-note">Jacksonville, North Carolina<br>Available for remote opportunities</p>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="section-wrap statement-grid">
+        <p class="section-number">01 / Profile</p>
+        <div>
+          <h2>Service has always been the common thread.</h2>
+          <p>Whether coordinating emergency resources, supporting communications systems, writing an SOP, or coaching someone through an unfamiliar process, I focus on the person who needs the solution. My background has trained me to listen carefully, communicate clearly, document accurately, and remain steady when the stakes are high.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-wrap section-block">
+      <div class="section-heading">
+        <p class="section-number">02 / Experience</p>
+        <h2>Built in demanding environments.</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-meta"><span>2020—Present</span><span>Jacksonville, NC</span></div>
+          <div class="timeline-body">
+            <h3>Fire Engineer</h3>
+            <p class="organization">Jacksonville Fire &amp; Emergency Services</p>
+            <ul>
+              <li>Operate complex apparatus and support emergency response, rescue, and incident-command functions where clear communication and accurate decisions are essential.</li>
+              <li>Conduct inspections, build pre-incident plans, identify hazards, and document corrective actions for safer, more reliable operations.</li>
+              <li>Train and mentor personnel while maintaining equipment readiness, accountability, and service standards.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-meta"><span>2025</span><span>Jacksonville, NC</span></div>
+          <div class="timeline-body">
+            <h3>DCI / NCIC Technician &amp; Public Safety Telecommunicator</h3>
+            <p class="organization">Jacksonville Police Department</p>
+            <ul>
+              <li>Supported time-sensitive fire and law-enforcement operations through CAD, radio, telephone, and secure information systems.</li>
+              <li>Completed more than 80% of the department’s DCI projects and resolved administrative and technical workflow issues.</li>
+              <li>Authored operational SOPs covering messaging, recovered vehicles, radio channels, remote access, and on-call procedures.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-meta"><span>2012—2020</span><span>United States</span></div>
+          <div class="timeline-body">
+            <h3>Radio Chief &amp; Recruiter</h3>
+            <p class="organization">United States Marine Corps</p>
+            <ul>
+              <li>Led teams of up to 80 personnel and trained more than 210 Marines on communications systems, procedures, and mission readiness.</li>
+              <li>Managed radio networks, communications planning, troubleshooting, logistics, and multimillion-dollar equipment inventories.</li>
+              <li>Translated technical requirements for diverse audiences and built trusted relationships through instruction, recruiting, and customer service.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <div class="section-wrap">
+        <div class="section-heading light">
+          <p class="section-number">03 / Capabilities</p>
+          <h2>Technical support with a human center.</h2>
+        </div>
+        <div class="skill-grid">
+          <article><span>01</span><h3>User Support</h3><p>Patient, respectful assistance by phone, radio, email, and in person—without making the user feel lost or rushed.</p></article>
+          <article><span>02</span><h3>Troubleshooting</h3><p>Structured problem-solving across hardware, software, networks, radio systems, and operational workflows.</p></article>
+          <article><span>03</span><h3>Documentation</h3><p>Clear SOPs, procedures, incident records, training material, and knowledge that others can confidently use.</p></article>
+          <article><span>04</span><h3>Communication</h3><p>Calm explanations, active listening, discretion, stakeholder coordination, and feedback routed to the right team.</p></article>
+          <article><span>05</span><h3>Testing &amp; Quality</h3><p>Detail-oriented inspections, readiness checks, process reviews, and verification before systems return to service.</p></article>
+          <article><span>06</span><h3>AI Curiosity</h3><p>Hands-on interest in using modern technology and AI to improve service, decision-making, and legacy processes.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section-wrap section-block">
+      <div class="section-heading">
+        <p class="section-number">04 / Education &amp; recognition</p>
+        <h2>Always learning. Always accountable.</h2>
+      </div>
+      <div class="two-column">
+        <div class="info-panel">
+          <h3>Education</h3>
+          <div class="info-item"><strong>B.S. Information Technology</strong><span>Data Networking &amp; Security · Liberty University · In progress · 4.0 GPA</span></div>
+          <div class="info-item"><strong>A.A.S. Emergency Management</strong><span>Fayetteville Technical Community College</span></div>
+        </div>
+        <div class="info-panel">
+          <h3>Selected recognition</h3>
+          <div class="info-item"><strong>Firefighter of the Year</strong><span>Jacksonville Fire &amp; Emergency Services · 2024</span></div>
+          <div class="info-item"><strong>Life Saving Award</strong><span>Off-duty CPR response</span></div>
+          <div class="info-item"><strong>Navy &amp; Marine Corps Achievement Medal</strong><span>United States Marine Corps</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skyward" class="skyward-section">
+      <div class="section-wrap skyward-grid">
+        <div>
+          <p class="section-number">05 / Why Skyward</p>
+          <h2>People first. Technology in service of progress.</h2>
+        </div>
+        <div class="letter">
+          <p>Skyward’s emphasis on integrity, compassion, curiosity, and authentic service closely matches how I have approached every role in my career.</p>
+          <p>I would bring a proven ability to remain composed, support people across multiple communication channels, document repeatable solutions, and learn unfamiliar systems quickly. My operational experience and IT education have prepared me to help CMS users adopt enterprise AI tools with confidence while giving product and engineering teams useful, accurate feedback.</p>
+          <p>I may be entering a new chapter in IT, but I am not new to technical systems, demanding customers, accountability, or mission-focused service. I would welcome the opportunity to bring that combination to Skyward.</p>
+          <p class="signature">Derick Gary</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap">
+      <p class="eyebrow">Let’s connect</p>
+      <h2>Ready to bring service-minded support to your team.</h2>
+      <div class="actions centered">
+        <a class="button primary" href="mailto:jermaine2322@yahoo.com">Email Derick</a>
+        <a class="button secondary" href="tel:+19104785420">Call (910) 478-5420</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Derick Gary</p>
+    <a href="https://www.linkedin.com/in/derick-gary-855312196" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  </footer>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a39ffbda5b2a5114',t:'MTc4OTIyNzM0NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
